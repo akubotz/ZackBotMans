@@ -1,1 +1,1 @@
-worker: node index.js && npm start
+worker: yarn && node index.js
