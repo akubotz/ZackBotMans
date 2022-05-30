@@ -1,1 +1,1 @@
-worker: npm i && node zackm.js && npm start
+worker: npm i && node index.js && npm start
