@@ -767,8 +767,7 @@ let thnsto = getjson.content[0].content[0].content[0].content ? getjson.content[
 let cBandwidth = await checkBandwidth()
 let prefs = ` ▸ ${prefix}`
 const listmn = `*ROBOT WHATSAPP MULTI DEVICE*
-_Script By MyMans APIs - X - ZackMans Official_
-
+_Script By Koko - X - Rey Official_
 ${cekbotinfo}
 
 STATISTICS BOT
@@ -993,7 +992,7 @@ video:fs.readFileSync("./media/video/mans.mp4"),
 gifPlayback:true,
 jpegThumbnail:log0,
 caption: listmn,
-footer: '© MyMans APIs - X - ZackMans Official',
+footer: '® KoKoRey',
 templateButtons: templateButtons
 }
 mans.sendMessage(m.chat, templateMessage)
@@ -1452,7 +1451,7 @@ let buttons = [
 let buttonMessage = {
 image: thum,
 caption: teks,
-footer: "© MyMans APIs - MyMainas",
+footer: "® KoKoRey",
 buttons: buttons,
 headerType: 4,
 }
@@ -2122,7 +2121,7 @@ rows: listMsgs
 
 const listMessage = {
 text: "ketuk button dibawah untuk melihat daftar list respon message, ketuk lagi untuk menjalankan fiturnya",
-footer: "© MyMans APIs - X - ZackMans Official",
+footer: "® KoKoRey",
 title: "     「 List Respon Message 」",
 buttonText: "List Message",
 sections
@@ -2369,7 +2368,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks,
-footer: "© MyMans APIs - MyMainas",
+footer: "® KoKoRey",
 buttons: buttons,
 headerType: 4
 }
@@ -2393,7 +2392,7 @@ let buttonMessage = {
 image: {url:res[0].icon},
 jpegThumbnail: thum,
 caption: teks,
-footer: "© MyMans APIs - MyMainas",
+footer: "® KoKoRey",
 buttons: buttons,
 headerType: 4
 }
@@ -2419,7 +2418,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks,
-footer: "© MyMans APIs - MyMainas",
+footer: "® KoKoRey",
 buttons: buttons,
 headerType: 4
 }
@@ -2448,7 +2447,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks,
-footer: "© MyMans APIs - MyMainas",
+footer: "® KoKoRey",
 buttons: buttons,
 headerType: 4
 }
@@ -2526,7 +2525,7 @@ rows: listSerch
 ]
 const listMessage = {
 text: teskd,
-footer: "© MyMans APIs - X - ZackMans Official",
+footer: "® KoKoRey",
 title: "     「 Youtube Search Downloader 」",
 buttonText: "List Search",
 mentions: await mans.parseMention(teskd),
@@ -2592,7 +2591,7 @@ await mans.updateProfilePicture(m.chat, { url: media }).catch((err) => fs.unlink
 m.reply(mess.success)
 }
 break
-case 'tagall': {
+case 't': {
 if (isBan) return m.reply(mess.ban)
 if (!m.isGroup) return m.reply(mess.group)
 if (!isAdmins && !isCreator) return m.reply(mess.admin)
@@ -2605,7 +2604,7 @@ teks += `⭔ @${mem.id.split('@')[0]}\n`
 mans.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, { quoted: m })
 }
 break
-case 'hidetag': {
+case 'h': {
 if (isBan) return m.reply(mess.ban)
 if (!m.isGroup) return m.reply(mess.group)
 if (!isAdmins && !isCreator) return m.reply(mess.admin)
@@ -2641,7 +2640,7 @@ text: "ZackMans Official",
 isForwarded: true,
 sendEphemeral: true,
 "externalAdReply": {
-"title": `ZackMans Official`,
+"title": `® KoKoRey Official`,
 "body": `Subscribe To Channel YouTube ZackMans Official`,
 "previewType": "PHOTO",
 "thumbnailUrl": thum,
@@ -2688,8 +2687,8 @@ let buttons = [
 let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
-caption: `*「 ZackMans Official 」*\n\nChange Info, Select Open Or Close`,
-footer: "© MyMans APIs - MyMainas",
+caption: `*「 ® KoKoRey Official 」*\n\nChange Info, Select Open Or Close`,
+footer: "® KoKoRey",
 buttons: buttons,
 headerType: 4
 }
@@ -2714,8 +2713,8 @@ let buttons = [
 let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
-caption: `*「 ZackMans Official 」*\n\nChange Group Setting, Select Open Or Close`,
-footer: "© MyMans APIs - MyMainas",
+caption: `*「 ® KoKoRey Official 」*\n\nChange Group Setting, Select Open Or Close`,
+footer: "® KoKoRey",
 buttons: buttons,
 headerType: 4
 }
@@ -2723,7 +2722,7 @@ mans.sendMessage(m.chat, buttonMessage, { quoted: m })
 }
 }
 break
-case 'promote': {
+case 'admin': {
 if (isBan) return m.reply(mess.ban)
 if (!m.isGroup) return m.reply(mess.group)
 if (!isBotAdmins) return m.reply(mess.botAdmin)
@@ -2732,7 +2731,7 @@ let users = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender :
 await mans.groupParticipantsUpdate(m.chat, [users], 'promote').then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
 }
 break
-case 'demote': {
+case 'babu': {
 if (isBan) return m.reply(mess.ban)
 if (!m.isGroup) return m.reply(mess.group)
 if (!isBotAdmins) return m.reply(mess.botAdmin)
@@ -2788,7 +2787,7 @@ m.reply('Sukses Broadcast')
 }
 break
 case 'sc': case 'script': case 'donate': case 'donasi': case 'cekupdate': case 'updatebot': case 'cekbot': case 'sourcecode': {
-teks = `     「 ZackMans Official 」\n\n${zckmn.saweria}\n${zckmn.donate}`
+teks = `     「 ® KoKoRey Official 」\n\n${zckmn.saweria}\n${zckmn.donate}`
 for (let i of zckmn.source) {
 teks += `\n\nName : ${i.name}\n${i.link}`
 }
@@ -3079,19 +3078,19 @@ m.reply(`\`\`\`「 Kalkulator 」\`\`\`\n\n*•> Hitung :* ${qsd}\n*•> Hasil :
 }
 }
 break
-case 'public': {
+case 'umum': {
 if (isBan) return m.reply(mess.ban)
 if (!isCreator) return m.reply(mess.owner)
 mans.public = true
-m.reply('Sukse Change To Public Usage')
+m.reply('Sukse Change To umum Usage')
 mans.setStatus(`Mode : Public`)
 }
 break
-case 'self': {
+case 'pribadi': {
 if (isBan) return m.reply(mess.ban)
 if (!isCreator) return m.reply(mess.owner)
 mans.public = false
-m.reply('Sukses Change To Self Usage')
+m.reply('Sukses Change To pribadi Usage')
 mans.setStatus(`Mode : Self`)
 }
 break
@@ -3343,7 +3342,7 @@ buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
 title:"NOMOR BOT WHATSAPP, MULTI DEVICE TERBARU FITUR BERJIBUN - ZackMans",
-body:"© MyMans APIs - X - ZackMans Official",
+body:"Script By Koko - X - Rey Official",
 thumbnail: log0,
 mediaType:2,
 mediaUrl: "https://youtu.be/jKAawPBWe5k",
@@ -3378,7 +3377,7 @@ rows: listBloxk
 
 const listMessage = {
 text: teskd,
-footer: "© MyMans APIs - X - ZackMans Official",
+footer: "Script By Koko - X - Rey Official",
 title: "     「 List Participants Blockir 」",
 buttonText: "List Blockir",
 mentions: await mans.parseMention(teskd),
@@ -3451,7 +3450,7 @@ let buttonMessage = {
 image:log0,
 jpegThumbnail:thum,
 caption: textbv,
-footer: "© MyMans APIs - MyMainas",
+footer: "® KoKoRey",
 buttons: buttons,
 headerType: 4
 }
@@ -3526,11 +3525,11 @@ let buttons = [
 let buttonMessage = {
 video: {url:lotwit.medias[1].url},
 caption: teks,
-footer: "© MyMans APIs - MyMainas",
+footer: "® KoKoRey",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"ZackMans Official - Twitter Downloader",
+title:"® KoKoRey Official - Twitter Downloader",
 body:lotwit.title ? lotwit.title : "Twitter Downloader",
 thumbnail: log0,
 mediaType:1,
