@@ -675,8 +675,8 @@ const fgclink = {
 "groupInviteMessage": {
 "groupJid": "120363043965529911@g.us",
 "inviteCode": "HDmXvmHpEkE9wRJy3IO6OZ",
-"groupName": "ZackMans Broadcast", 
-"caption": "ZackMans Broadcast", 
+"groupName": "® KoKoRey Broadcast", 
+"caption": "® KoKoRey Broadcast", 
 'jpegThumbnail': log0
 }
 }
@@ -690,11 +690,11 @@ participant: `0@s.whatsapp.net`, ...(from ?
 },
 message: { 
  "videoMessage": { 
- "title":"ZackMans Official",
+ "title":"® KoKoRey Official",
  "h": `Hmm`,
  'seconds': "30", 
  'gifPlayback': 'true', 
- 'caption': 'ZackMans Official',
+ 'caption': '® KoKoRey Official',
  'jpegThumbnail': log0
 }
 }
@@ -973,7 +973,7 @@ ${prefs}cowner <add/del>
 > / => / $ / <
 
 THANKS TO :
-adiwajshing, MhankBarBar, Nurutomo, MyMans APIs - X - ZackMans Official, ${thnsto}, Heroku, Replit, Railway, Termux, Rest APIs, Penyedia Module, Mastah Lainya
+adiwajshing, MhankBarBar, Nurutomo, MyMans APIs - X - ZackMans Official, ${thnsto}, Heroku, Replit, Railway, Termux, Rest APIs, Penyedia Module, Koko•Rey, Mastah Lainya
 
 ${ucapanWaktu}
 ${jangwak}`
@@ -2635,7 +2635,7 @@ if (!m.isGroup) return m.reply(mess.group)
 let response = await mans.groupInviteCode(m.chat)
 mans.sendMessage(m.chat, {text:`Link Group ${groupMetadata.subject} : \nhttps://chat.whatsapp.com/${response}l`, "contextInfo": {
 mimetype: "image/jpeg",
-text: "ZackMans Official",
+text: "® KoKoRey Official",
 "forwardingScore": 1000000000,
 isForwarded: true,
 sendEphemeral: true,
