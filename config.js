@@ -21,9 +21,9 @@ global.autkick = ['120363043965529911@g.us']
 global.gcrevoke = ['16472412324-1386525986@g.us']
 global.wjoind = []
 global.wleaved = []
-global.packname = "KoKoRey"
+global.packname = "Sticker By ®"
 global.packname2 = "KoKoRey"
-global.author = "KokoRey"
+global.author = "®>KokoRey"
 global.sessionName = "mans"
 global.linkgrupss = "https://chat.whatsapp.com/HDmXvmHpEkE9wRJy3IO6OZ"
 global.antitags = true
@@ -32,8 +32,8 @@ global.anticals = true
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.mess = {
     success: 'Success',
-    admin: 'Fitur Khusus Admin Group!',
-    botAdmin: 'Bot Harus Menjadi Admin Terlebih Dahulu!',
+    admin: 'Hanya Untuk Admin Jancok, Lu tuh siapa Njeng?!',
+    botAdmin: 'Andai Kamu Tau, Aku ini Bukan Admin Bgst!',
     owner: 'Fitur Khusus Owner Bot',
     group: 'Fitur Digunakan Hanya Untuk Group!',
     private: 'Fitur Digunakan Hanya Untuk Private Chat!',
